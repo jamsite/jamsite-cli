@@ -1,0 +1,47 @@
+{
+  "name": "@jamsite/jamsite-cli",
+  "version": "0.0.1",
+  "description": "Jamsite cli - JAMstack framework cli interface",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "standard --verbose *.js **/*.js | snazzy",
+    "test": "npm run lint",
+    "preversion": "npm test"
+  },
+  "keywords": [
+    "jamstack"
+  ],
+  "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "jamsite": "bin/jamsite.js"
+  },
+  "devDependencies": {
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.js"
+    ]
+  },
+  "nyc": {
+    "check-coverage": true,
+    "statements": 100,
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamsite/jamsite-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamsite/jamsite-cli/issues"
+  },
+  "homepage": "https://github.com/jamsite/jamsite-cli#readme"
+}
