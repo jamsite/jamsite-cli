@@ -42,8 +42,6 @@ async function runCommand (command, exitCode = null) {
 const args = process.argv.splice(2)
 const command = commandFromArgs(args)
 
-if (command) {
-  runCommand(command)
-} else {
-  runCommand('help', 1)
-}
+command
+  ? runCommand(command)
+  : runCommand('help', 1)
