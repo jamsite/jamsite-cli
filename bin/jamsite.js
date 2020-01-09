@@ -34,7 +34,7 @@ async function runCommand (command, exitCode = null) {
       process.exit(exitCode)
     }
   } else {
-    console.error(`Unknown command "${command}"`)
+    console.error(`Error: Unknown command "${command}"`)
     await runCommand('help', 1)
   }
 }
