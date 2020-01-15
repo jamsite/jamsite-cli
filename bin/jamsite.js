@@ -15,7 +15,7 @@ function commandFromArgs (args) {
 
 function moduleByCommand (command) {
   try {
-    return require(`../lib/command-${command}`)
+    return require(`../lib/commands/${command}`)
   } catch (e) {
     if (e.code === 'MODULE_NOT_FOUND') {
       return null
