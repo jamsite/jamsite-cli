@@ -790,6 +790,11 @@
       "integrity": "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==",
       "dev": true
     },
+    "exec-sh": {
+      "version": "0.3.4",
+      "resolved": "https://registry.npmjs.org/exec-sh/-/exec-sh-0.3.4.tgz",
+      "integrity": "sha512-sEFIkc61v75sWeOe72qyrqg2Qg0OuLESziUDk/O/z2qgS15y2gWVFrI6f2Qn/qw/0/NCfCEsmNA4zOjkwEZT1A=="
+    },
     "external-editor": {
       "version": "3.1.0",
       "resolved": "https://registry.npmjs.org/external-editor/-/external-editor-3.1.0.tgz",

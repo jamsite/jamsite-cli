@@ -43,5 +43,8 @@
   "bugs": {
     "url": "https://github.com/jamsite/jamsite-cli/issues"
   },
-  "homepage": "https://github.com/jamsite/jamsite-cli#readme"
+  "homepage": "https://github.com/jamsite/jamsite-cli#readme",
+  "dependencies": {
+    "exec-sh": "^0.3.4"
+  }
 }
