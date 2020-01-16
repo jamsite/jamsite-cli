@@ -45,6 +45,7 @@
   },
   "homepage": "https://github.com/jamsite/jamsite-cli#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "exec-sh": "^0.3.4"
   }
 }

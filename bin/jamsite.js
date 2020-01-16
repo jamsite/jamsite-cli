@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
+// read .env from cwd, this should be changed when jamsite
+// will allow specifying custom site path
+require('dotenv').config()
+
 function commandFromArgs (args) {
   if (!args.length) return false
   const command = args[0]
