@@ -1,6 +1,6 @@
 {
   "name": "@jamsite/jamsite-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Jamsite cli - JAMstack framework cli interface",
   "main": "index.js",
   "directories": {
